@@ -1,0 +1,7 @@
+<label>server name</label>
+
+<button class="btn btn-primary" [disabled]="!allowNewServer" (click)="onCreateServer()">add server</button>
+<p>{{allowNewServer}}</p>
+<p>{{serverCreationStatus}}</p>
+<app-server></app-server>
+<app-server></app-server>
